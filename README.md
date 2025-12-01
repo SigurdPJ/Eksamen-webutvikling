@@ -86,14 +86,6 @@ Prosjektet følger prinsippene for universell utforming (WCAG 2.1):
 
 ## Installasjon og kjøring
 
-Prosjektet består av to deler:
-
-* **Frontend:** React/Vite-applikasjonen ligger i mappen `trump`
-* **Backend:** .NET Web API-prosjektet ligger i mappen `TrumpApi`
-
-Frontend-applikasjonen (`trump`) kommuniserer med API-et (`TrumpApi`) via HTTP-forespørsler (GET, POST, PUT, DELETE).
-Begge må være aktive samtidig for at CRUD-funksjonaliteten skal fungere korrekt.
-
 
 #### 1. Klon prosjektet
 
@@ -111,8 +103,6 @@ npm install
 npm run dev
 ```
 
-Dette vil starte applikasjonen og automatisk åpne den i nettleseren.
-
 
 #### 3. Kjør backend (TrumpApi)
 
@@ -123,6 +113,6 @@ dotnet run
 
 API-et vil kjøre på: http://localhost:5177
 
-Dokumentasjonside: Besøk http://localhost:5177/docs.html for oversikt over alle API-endepunkter, metoder og hvordan de brukes.
+Dokumentasjonside for API: http://localhost:5177/docs.html
 
 
